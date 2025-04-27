@@ -1,4 +1,6 @@
-﻿namespace TicTacToe;
+﻿using TicTacToe.Version1;
+
+namespace TicTacToe;
 
 class Program
 {

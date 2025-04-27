@@ -1,4 +1,4 @@
-﻿namespace TicTacToe;
+﻿namespace TicTacToe.Version1;
 
 public interface IInteractionRequest { }
 
