@@ -1,4 +1,6 @@
-﻿namespace TicTacToe.Version1;
+﻿namespace TicTacToe;
+
+public class InvalidMoveException : Exception;
 
 public static class Manager
 {

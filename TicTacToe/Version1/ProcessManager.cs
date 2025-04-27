@@ -74,8 +74,6 @@ public record BoardState(bool?[] Board, bool IsPlayer0Turn)
 public record MoveRequest() : IInteractionRequest;
 public record MoveResponse(int X, int Y) : IInteractionResponse;
 
-public class InvalidMoveException : Exception;
-
 #endregion
 
 #region Processes
